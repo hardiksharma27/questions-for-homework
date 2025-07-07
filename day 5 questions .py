@@ -13,3 +13,18 @@ print(str1.upper()) # converts string in upper case
 print(str2.upper()) # converts string in upper case
 print(str1.replace("Python","Java")) # replaces word 
 print(str2.replace("Java","Python"))
+
+OUTPUT 
+
+PS C:\next yug classes> & C:/Users/DELL/AppData/Local/Programs/Python/Python313/python.exe "c:/next yug classes/day 5 questions .py"
+I am learning Python Python is easy to learn as compared to Java
+I am learning Python
+Python is easy to learn as compared to Java
+Ino taea
+a
+I AM LEARNING PYTHON
+PYTHON IS EASY TO LEARN AS COMPARED TO JAVA
+I am learning Java
+Python is easy to learn as compared to Python
+PS C:\next yug classes> 
+
