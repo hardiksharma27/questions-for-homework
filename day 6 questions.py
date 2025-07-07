@@ -25,3 +25,21 @@ elif income < 700000:
     print("Invest in: HDFC Balanced Advantage Fund")
 else:
     print("Invest in: Equity Mutual Funds + Retirement Plans")
+
+
+OUTPUT ---
+
+ A ...if we enter age smaller then 21 then
+PS C:\next yug classes> & C:/Users/DELL/AppData/Local/Programs/Python/Python313/python.exe "c:/next yug classes/day 6 questions.py"
+Enter the name: hardik 
+Enter the age: 18
+NO INVESTMENT
+
+B..... 
+PS C:\next yug classes> & C:/Users/DELL/AppData/Local/Programs/Python/Python313/python.exe "c:/next yug classes/day 6 questions.py"
+Enter the name: hardik
+Enter the age: 55
+Transition to retirement
+Enter the income: 1200000
+Invest in: Equity Mutual Funds + Retirement Plans
+
