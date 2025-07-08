@@ -33,3 +33,17 @@ print(" After deleting : ", lst2)
 lst3 = [22,34,87,87.87]
 lst3.sort(reverse=True)
 print(" After sorting : " , lst3)
+
+OUTPUT ---
+
+PS C:\next yug classes> & C:/Users/DELL/AppData/Local/Programs/Python/Python313/python.exe "c:/next yug classes/day 7 questions.py"
+ After appending lst 1 :  [27, 97, 3.14, True, 'Hardik', 'Jammu']
+ After appending lst 2 :  ['Sharma', 45, 18, 21.5, False, 'Kashmir']
+ After inserting :  [27, 97, 5, 3.14, True, 'Hardik', 'Jammu']
+ After inserting :  ['Hardik', 'Sharma', 45, 18, 21.5, False, 'Kashmir']
+ After extend :  [27, 97, 5, 3.14, True, 'Hardik', 'Jammu', 'Hardik', 'Sharma', 45, 18, 21.5, False, 'Kashmir']
+ After removing :  [27, 97, 5, 3.14, True, 'Jammu', 'Hardik', 'Sharma', 45, 18, 21.5, False, 'Kashmir']
+ After removing :  ['Hardik', 'Sharma', 18, 21.5, False, 'Kashmir']
+ After deleting :  [27, 97, 3.14, True, 'Jammu', 'Hardik', 'Sharma', 45, 18, 21.5, False, 'Kashmir']
+ After deleting :  ['Hardik', 'Sharma', 18, 21.5, 'Kashmir']
+ After sorting :  [87.87, 87, 34, 22]
