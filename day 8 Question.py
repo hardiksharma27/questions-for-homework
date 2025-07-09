@@ -29,6 +29,13 @@ print("Length of tup2 " , len(tup2))
 print("Length of tup3 " , len(tup3))
 print("Length of tup4 " , len(tup4))
 
+#concatenation
+joined_tup = tup1 + tup2
+print(" Concatenated tuple(tup+tup2)", joined_tup)
+
+#repeat 19 times
+print("Repeated tuple 19 times " , joined_tup*19)
+
 
 OUTPUT -----
 
@@ -50,12 +57,13 @@ Length of tup2  4
 Length of tup3  4
 Length of tup4  6
  Concatenated tuple(tup+tup2) (65, 76, True, 'Manik', 32, 87.2, False, 'Aryan')
-Repeated tuple 19 times  (65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan')
+Repeated tuple 19 times  (65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+, 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+, 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+, 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+, 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+, 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan'
+                          , 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan', 65, 76, True, 'Manik', 32, 87.2, False, 'Aryan')
 PS C:\next yug classes> 
 
-#concatenation
-joined_tup = tup1 + tup2
-print(" Concatenated tuple(tup+tup2)", joined_tup)
 
-#repeat 19 times
-print("Repeated tuple 19 times " , joined_tup*19)
